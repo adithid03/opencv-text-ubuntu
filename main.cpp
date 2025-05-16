@@ -48,7 +48,7 @@ int main(int argc, char** argv)
     // Visualization
     polylines(frame, detResults, true, Scalar(0, 255, 0), 2);
 
-    imwrite("out4.jpg",frame);
+    imwrite("images_output/out4.jpg",frame);
 
     imshow("Text Detection", frame);
     waitKey();
