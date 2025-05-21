@@ -20,9 +20,9 @@ This project uses OpenCV's deep learning `DB_TD500_resnet50.onnx` model to detec
 2. Open `OpenCV_Detect_Text.cbp` in Code::Blocks  
 3. Build and run the project  
 4. Place your image in the same folder
-5. change input image in project -> Set program's arguement and change your image path(eg: `img.jpg`)
+5. change input image in project -> Set program's arguement and change your image path(eg: `images_input/img.jpg`)
 6. Modify `main.cpp` to load your image (eg: `"my_image.jpg"`)  
-7. Run and check output like `out.jpg`
+7. Run and check output like `out.png`
 
 ## 🙌 Credits
 
